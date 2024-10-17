@@ -9,13 +9,42 @@ OpenAI의 ChatGPT API, Whisper API, LangChain, Twitter API를 활용하여 다�
 <br>
 
 ## 🌁 주요 기능  
-- **ChatGPT API를 활용한 자연어 상호작용**  
-  - ChatGPT API를 이용하여 사용자와 자연어로 상호작용하는 챗봇
-  - 다양한 질문에 대한 대답 및 대화 가능  
-
 - **트윗 자동 생성 봇**  
   - Twitter API를 이용하여 사용자의 입력이나 특정 키워드를 기반으로 자동으로 글감(트윗)을 생성
   - 실시간으로 트윗을 생성하여 사용자와 상호작용
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/c64560d7-e217-406b-a2dc-2f619d108375" width="100%" />
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/5285d6b4-427e-4c4c-b516-8ef065206e0c" width="100%" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <p align="center">temperature=0으로 설정</p>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/c7673b33-d5af-4213-9e7b-2fb9f0e1b2b1" width="100%" />
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/d0ff3066-d479-4700-bb41-94532df44104" width="100%" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <p align="center">어조 조절(낙천적인 성격, '~인 것이다'로 끝맺음</p>
+    </td>
+  </tr>
+</table>
+<br/>
 
 - **LangChain을 이용한 뉴스 기사 자동 생성 봇**  
   - LangChain 프레임워크를 사용하여 사용자가 입력한 주제에 대한 뉴스 기사를 자동으로 생성
