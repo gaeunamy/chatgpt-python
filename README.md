@@ -49,10 +49,75 @@ OpenAI의 ChatGPT API, Whisper API, LangChain, Twitter API를 활용하여 다�
 - **LangChain을 이용한 뉴스 기사 자동 생성 봇**  
   - LangChain 프레임워크를 사용하여 사용자가 입력한 주제에 대한 뉴스 기사를 자동으로 생성
   - 주제에 맞는 최신 뉴스 기사를 작성하여 제공
+  
+
 
 - **Whisper API를 이용한 음성 처리 시스템**  
   - 사용자가 음성 파일을 업로드하면, Whisper API를 사용하여 음성을 텍스트로 전사  
   - 전사된 텍스트를 원하는 언어로 번역하고 요약하는 시스템
+ 
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/03968579-0dc9-45f7-b3ea-a6f589738c0a" width="100%" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <p align="center">음성 파일 전사</p>
+    </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/da6465b7-b54e-44d4-a148-783a0cc45f46" width="100%" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <p align="center">SRT 형식(자막)으로 출력</p>
+    </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/5279d484-40c8-4350-ba5a-11f47fa2eca0" width="100%" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <p align="center">GPT를 이용한 전사 내용 요약</p>
+    </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/327a99ff-a8df-418d-a13a-d6b60fb4e900" width="100%" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <p align="center">한국어 음성을 영어로 변역하여 전사</p>
+    </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/d6c47050-858b-446e-b277-81aa4659dd1e" width="100%" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <p align="center">영어로 변역하면서 요약</p>
+    </td>
+  </tr>
+</table>
+
+<br>
 
 - **PDF 문서 데이터 추출 및 시각화 시스템**  
   - 사용자가 업로드한 PDF 파일에서 텍스트 및 구조화된 데이터를 추출  
