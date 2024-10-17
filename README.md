@@ -61,10 +61,10 @@ OpenAI의 ChatGPT API, Whisper API, LangChain, Twitter API를 활용하여 다�
   </tr>
   <tr>
     <td align="center" style="border: none;">
-      <p align="center">최신 정보를 포함한 뉴스 기사 생성 [입력: M4를 탑재한 아이패드 프로]</p>
+      <p align="center">최신 정보를 포함한 뉴스 기사 생성 <br>[입력: M4를 탑재한 아이패드 프로]</p>
     </td>
     <td align="center" style="border: none;">
-      <p align="center">최신 음악 창작 AI 추천 [입력: Recommend the latest music creation AI service]</p>
+      <p align="center">최신 음악 창작 AI 추천 <br>[입력: Recommend the latest music creation AI service]</p>
     </td>
   </tr>
 </table>
