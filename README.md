@@ -72,8 +72,9 @@ OpenAI의 ChatGPT API, Whisper API, LangChain, Twitter API를 활용하여 다�
 <br>
 
 - **Whisper API를 이용한 음성 처리 시스템**  
-  - 사용자가 음성 파일을 업로드하면, Whisper API를 사용하여 음성을 텍스트로 전사  
-  - 전사된 텍스트를 원하는 언어로 번역하고 요약하는 시스템
+  - 사용자가 음성 파일을 업로드하면, Whisper API를 사용하여 음성을 텍스트로 전사 및 SRT 형식(자막, 타임스탬프)으로 출력
+  - 음성 번역과 전사 작업 동시 처리
+  - 음성 번역과 요약 작업 동시 처리
  
 <table>
   <tr>
@@ -140,7 +141,46 @@ OpenAI의 ChatGPT API, Whisper API, LangChain, Twitter API를 활용하여 다�
 
 - **PDF 문서 데이터 추출 및 시각화 시스템**  
   - 사용자가 업로드한 PDF 파일에서 텍스트 및 구조화된 데이터를 추출  
-  - 추출된 데이터를 시각화하여 사용자에게 유용한 정보를 제공
+  - 추출된 데이터를 CSV로 변환 및 시각화
+  - PDF의 내용을 바탕으로 사용자의 질문에 답변
+
+[(활용 PDF)서울특별시 스마트도시 및 정보화 기본계획.pdf](https://github.com/user-attachments/files/17416927/default.pdf)
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/dd17d3bd-6a2f-4909-8f02-21adc48c5245" width="100%" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <p align="center">PDF의 청구서 데이터를 CSV로 정리</p>
+    </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/d6ec9ef0-4b28-464c-8427-877b01eeddbf" width="100%" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <p align="center">청구서 데이터 시각화</p>
+    </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/040c0a5a-0f3b-46bc-a194-69bacbfdefe7" width="100%" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <p align="center">PDF 내용을 바탕으로 답변</p>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
@@ -167,6 +207,5 @@ OpenAI의 ChatGPT API, Whisper API, LangChain, Twitter API를 활용하여 다�
 <br/>
 
 ## 🙋‍♂️ Developer  
-| Fullstack |  
-| :--------: |  
 | [김가은](https://github.com/gaeunamy) |
+| :--------: |  
