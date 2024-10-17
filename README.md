@@ -49,8 +49,21 @@ OpenAI의 ChatGPT API, Whisper API, LangChain, Twitter API를 활용하여 다�
 - **LangChain을 이용한 뉴스 기사 자동 생성 봇**  
   - LangChain 프레임워크를 사용하여 사용자가 입력한 주제에 대한 뉴스 기사를 자동으로 생성
   - 주제에 맞는 최신 뉴스 기사를 작성하여 제공
-  
+  - 
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/52092635-365a-4b01-8ff8-47aa2e244545" width="100%" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <p align="center">최신 정보를 포함한 뉴스 기사 생성 [입력: M4를 탑재한 아이패드 프로]</p>
+    </td>
+  </tr>
+</table>
 
+<br>
 
 - **Whisper API를 이용한 음성 처리 시스템**  
   - 사용자가 음성 파일을 업로드하면, Whisper API를 사용하여 음성을 텍스트로 전사  
